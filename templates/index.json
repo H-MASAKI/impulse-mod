@@ -11,13 +11,14 @@
             "title_size": 80,
             "subheading": "And optional subtext",
             "link": "shopify:\/\/collections\/all",
-            "link_text": "Shop this",
-            "link_2": "shopify:\/\/collections\/all",
+            "link_text": "COLLECTION",
+            "link_2": "",
             "link_text_2": "Shop all",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/024.jpg",
             "overlay_opacity": 0,
-            "focal_point": "top center"
+            "focal_point": "20% 100%"
           }
         },
         "slideshow-1": {
