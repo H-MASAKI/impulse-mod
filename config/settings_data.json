@@ -127,18 +127,18 @@
           "1494301487049": {
             "type": "menu",
             "settings": {
-              "show_footer_title": true,
+              "show_footer_title": false,
               "menu": "footer",
-              "container_width": 25
+              "container_width": 70
             }
           },
           "1494292487693": {
             "type": "newsletter",
             "settings": {
-              "show_footer_title": true,
-              "title": "Sign up and save",
+              "show_footer_title": false,
+              "title": "",
               "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 33
+              "container_width": 30
             }
           },
           "1494301487048": {
