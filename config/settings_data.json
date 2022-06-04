@@ -130,7 +130,15 @@
             "settings": {
               "show_footer_title": false,
               "menu": "footer",
-              "container_width": 70
+              "container_width": 27
+            }
+          },
+          "04c104ec-8fc4-41e6-b206-8d3015d8e01a": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": false,
+              "menu": "footer-1",
+              "container_width": 39
             }
           },
           "1494292487693": {
@@ -152,6 +160,7 @@
         },
         "block_order": [
           "1494301487049",
+          "04c104ec-8fc4-41e6-b206-8d3015d8e01a",
           "1494292487693",
           "1494301487048"
         ],
