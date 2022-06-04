@@ -130,7 +130,7 @@
             "settings": {
               "show_footer_title": false,
               "menu": "footer",
-              "container_width": 27
+              "container_width": 25
             }
           },
           "04c104ec-8fc4-41e6-b206-8d3015d8e01a": {
@@ -138,7 +138,7 @@
             "settings": {
               "show_footer_title": false,
               "menu": "footer-1",
-              "container_width": 39
+              "container_width": 32
             }
           },
           "1494292487693": {
@@ -147,7 +147,7 @@
               "show_footer_title": false,
               "title": "",
               "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 30
+              "container_width": 36
             }
           },
           "1494301487048": {
