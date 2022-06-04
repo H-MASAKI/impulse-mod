@@ -76,8 +76,9 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "desktop_logo_width": 140,
-              "mobile_logo_width": 110
+              "logo": "shopify:\/\/shop_images\/WITT-LOGO_x15_b137b820-e3ad-4809-b404-e684ed39d15e.webp",
+              "desktop_logo_width": 100,
+              "mobile_logo_width": 100
             }
           },
           "1524770292306": {
