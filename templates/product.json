@@ -8,6 +8,12 @@
           "settings": {
           }
         },
+        "2345d1ab-b5be-41ab-8782-740db23fa6b6": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"product__policies rte small--text-center\">Tax included. <a href=\"\/policies\/shipping-policy\">Shipping<\/a> calculated at checkout.<\/div>"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -43,6 +49,11 @@
             "surface_pickup_enable": true
           }
         },
+        "60ae56bd-501e-42da-ab81-26788270a76b": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -53,6 +64,11 @@
           "type": "custom",
           "settings": {
             "code": "<div class=\"product__policies rte small--text-center\"><a href=\"#\">SIZE GUIDE<\/a> <\/div>"
+          }
+        },
+        "ee6a1353-faea-428a-87a5-b0bb97d4c0ef": {
+          "type": "separator",
+          "settings": {
           }
         },
         "tab": {
@@ -78,13 +94,16 @@
       },
       "block_order": [
         "price",
+        "2345d1ab-b5be-41ab-8782-740db23fa6b6",
         "separator",
         "variant_picker",
         "sales_point",
         "inventory_status",
         "buy_buttons",
+        "60ae56bd-501e-42da-ab81-26788270a76b",
         "description",
         "a8dd6701-368b-48b1-ba52-7fdfa13a03f0",
+        "ee6a1353-faea-428a-87a5-b0bb97d4c0ef",
         "tab",
         "contact",
         "share"
