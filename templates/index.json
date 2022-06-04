@@ -38,11 +38,30 @@
             "overlay_opacity": 0,
             "focal_point": "bottom center"
           }
+        },
+        "d3424248-a45c-4d68-90a0-5f31103e43b0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "shopify:\/\/collections",
+            "link_text": "COLLECTION",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/015.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "slideshow-0",
-        "slideshow-1"
+        "slideshow-1",
+        "d3424248-a45c-4d68-90a0-5f31103e43b0"
       ],
       "settings": {
         "section_height": "750px",
