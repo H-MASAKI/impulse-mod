@@ -49,6 +49,12 @@
             "is_tab": false
           }
         },
+        "a8dd6701-368b-48b1-ba52-7fdfa13a03f0": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"product__policies rte small--text-center\"><a href=\"#\">SIZE GUIDE<\/a> <\/div>"
+          }
+        },
         "tab": {
           "type": "tab",
           "settings": {
@@ -78,6 +84,7 @@
         "inventory_status",
         "buy_buttons",
         "description",
+        "a8dd6701-368b-48b1-ba52-7fdfa13a03f0",
         "tab",
         "contact",
         "share"
