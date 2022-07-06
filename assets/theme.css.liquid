@@ -7891,9 +7891,11 @@ label.tag__checkbox-wrapper{
   }
 
 .variant-input-wrap label.disabled{
-      color:{{ settings.color_borders | default: "#1c1d1d" }};
-      color:var(--colorBorder);
-    }
+/*      color:{{ settings.color_borders | default: "#1c1d1d" }};
+      color:var(--colorBorder);*/
+      color:{{ settings.color_body_text | default: "#1c1d1d" }};
+      color:var(--colorTextBody);
+}
 
 .variant-input-wrap label.disabled:after{
 /*      position:absolute;
