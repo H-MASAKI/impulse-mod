@@ -7927,7 +7927,7 @@ label.tag__checkbox-wrapper{
     border-color:{{ settings.color_body_text | default: "#1c1d1d" | color_modify: "alpha", 0.05 }};
     border-bottom:1px {{ settings.color_body_text | default:"#1c1d1d" }};
     box-shadow:0 0 0 1px {{ settings.color_body_text | default:"#1c1d1d" }};
-/*    box-shadow:0 0 0 1px var(--colorTextBody);*/
+    box-shadow:0 0 0 1px var(--colorTextBody);
   }
 
 .variant-input{
@@ -7959,6 +7959,9 @@ select .variant-input{
   width:50px;
   margin:0;
   cursor:default;
+    border-bottom:1px {{ settings.color_body_text | default:"#1c1d1d" }};
+    box-shadow:0 0 0 1px {{ settings.color_body_text | default:"#1c1d1d" }};
+    box-shadow:0 0 0 1px var(--colorTextBody);
 }
 
 .variant__label-info{
