@@ -7885,6 +7885,12 @@ label.tag__checkbox-wrapper{
     box-shadow:0 0 0 1px var(--colorBorder);*/
       overflow:hidden
   }
+.variant-input-wrap label:hover{
+    opacity:0.6;
+    border-bottom:1px {{ settings.color_body_text | default:"#1c1d1d" }};
+    box-shadow:0 0 0 1px {{ settings.color_body_text | default:"#1c1d1d" }};
+    box-shadow:0 0 0 1px var(--colorTextBody);
+  }
 
 [data-center-text=true] .variant-input-wrap label{
       margin:0 4px 12px
