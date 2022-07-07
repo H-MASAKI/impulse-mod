@@ -7884,13 +7884,13 @@ label.tag__checkbox-wrapper{
 /*    box-shadow:0 0 0 1px {{ settings.color_borders | default:"#1c1d1d" }};
     box-shadow:0 0 0 1px var(--colorBorder);*/
       overflow:hidden
+    transition:transform 0.05s ease-out;
   }
 .variant-input-wrap label:hover{
     opacity:0.6;
     border-bottom:1px {{ settings.color_body_text | default:"#1c1d1d" }};
     box-shadow:0 0 0 1px {{ settings.color_body_text | default:"#1c1d1d" }};
     box-shadow:0 0 0 1px var(--colorTextBody);
-    transition:transform 0.05s ease-out;
   }
 
 [data-center-text=true] .variant-input-wrap label{
