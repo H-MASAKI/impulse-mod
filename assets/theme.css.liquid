@@ -7878,7 +7878,7 @@ label.tag__checkbox-wrapper{
     display:inline-block;
     font-weight:400;
     padding:0 2px;
-    margin:0 12px 12px 0;
+    margin:0 16px 12px 0;
     background-color:{{ settings.color_body_bg | default: "#fff" }};
     background-color:var(--colorBody);
 /*    box-shadow:0 0 0 1px {{ settings.color_borders | default:"#1c1d1d" }};
@@ -7888,14 +7888,13 @@ label.tag__checkbox-wrapper{
   }
 .variant-input-wrap label:hover{
     opacity:0.6;
-    border-color:{{ settings.color_body_text | default: "#1c1d1d" | color_modify: "alpha", 0.05 }};
     border-bottom:1px {{ settings.color_body_text | default:"#1c1d1d" }};
-    box-shadow:0 1px 0 0 {{ settings.color_body_text | default:"#1c1d1d" }};
-    box-shadow:0 1px 0 0 var(--colorTextBody);
+    box-shadow:0 0 0 1px {{ settings.color_body_text | default:"#1c1d1d" }};
+    box-shadow:0 0 0 1px var(--colorTextBody);
   }
 
 [data-center-text=true] .variant-input-wrap label{
-    margin:0 12px 12px 0;
+    margin:0 16px 12px 0;
   }
 
 .variant-input-wrap label.disabled{
