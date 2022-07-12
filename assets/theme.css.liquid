@@ -4339,7 +4339,7 @@ form+.footer__social{
 @media only screen and (min-width:769px){
 
 .header-layout[data-logo-align=center] .header-item--logo{
-      margin:0 30px
+      margin:0 20px
   }
     }
 
@@ -4953,7 +4953,7 @@ form+.footer__social{
   display:inline-block;
   vertical-align:middle;
   text-decoration:none;
-  padding:7.5px 15px;
+  padding:7.5px 10px;
   white-space:nowrap;
   color:{{ settings.color_header_text | default: "#000" }};
   color:var(--colorNavText)
@@ -5094,8 +5094,15 @@ form+.footer__social{
 }
 
 .side-nav--list{
-  list-style:none
+  list-style:none;
+  font-size:calc(var(--typeBaseSize) - 2px);
+  letter-spacing:0.05em
 }
+@media only screen and (max-width:768px){
+.side-nav--list{
+      font-size:calc(var(--typeBaseSize) - 2px);
+  }
+    }
 
 .is-focused>.site-nav__dropdown,.site-nav--has-dropdown:hover .site-nav__dropdown{
     display:block;
